@@ -7,7 +7,7 @@ public class L003SquareRoot {
 //            return 0;
 //        }
         while(left<=right){
-            int mid = (right+left) / 2;
+            int mid = left+ (right-left) / 2;
 //            int mid has to be inside the while loop as value of mid has to change everytime in the loop.
             if(mid*mid == x){
                 sqrt = mid;
