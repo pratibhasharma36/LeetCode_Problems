@@ -1,7 +1,11 @@
 package Arrays;
 
 public class A011 {
-    public static int removeDuplicates(int[] nums) {
+    public static int removeDuplicates(int[] nums) 
+// Check for edge cases.
+        if (nums == null) {
+            return 0;
+        }
         int k = 1 ;
         for (int i = 0; i < nums.length;i++) {
             if(i==0 || nums[i] == nums[i-1]){
