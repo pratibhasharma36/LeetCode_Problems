@@ -8,6 +8,16 @@ public class K006 {
     static int findElement(int [] arr , int target) {
         int start = 0;
         int end = arr.length - 1;
+        
+        // For ceiling
+          if(target > arr[end]){
+            return -1;
+        }
+        
+//         //        For floor
+//         if(target < arr[start]){
+//             return -1;
+//         }
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (arr[mid] == target) {
@@ -19,7 +29,10 @@ public class K006 {
             }
         }
 //        Floor : The greatest number which is smaller or equal to target element.
+//         For floor
+//         return end;
         //    Find a number less than or equal to target element , return end.
+//         For ceiling
         return start;
     }
 }
