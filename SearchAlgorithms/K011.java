@@ -1,6 +1,6 @@
 package SearchAlgorithms;
 
-public class K011Unsolved1095 {
+public class K011 {
 //   Search the peak index.
 //    If you can find in the ascending order, return that index.
 //    If not , search in descending order.
