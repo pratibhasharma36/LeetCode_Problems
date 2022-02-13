@@ -1,5 +1,5 @@
 package SearchAlgorithms;
-
+//Firstly we will find range for our answer.
 public class K014GoodQuestion {
 //    Minimum number of partitions that we can make = 1 , i.e., entire array.
 //    Maximum number of partitions that we can make = N , i.e, single - single elements.
