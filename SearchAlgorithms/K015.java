@@ -2,6 +2,7 @@ package SearchAlgorithms;
 
 import java.util.Arrays;
 // Searching in 2-D arrays.
+// Matrix which is sorted row-wise and column-wise.
 public class K015 {
     public static void main(String[] args) {
         int [] [] matrix = {
